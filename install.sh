@@ -6,4 +6,9 @@ sudo apk add ruby
 # install homebrew
 NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.bashrc
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.zshrc
+
 brew install fnm eza fish fisher bat gh git-delta starship ripgrep
