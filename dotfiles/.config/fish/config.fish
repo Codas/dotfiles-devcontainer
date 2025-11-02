@@ -10,4 +10,6 @@ alias ls eza
 
 starship init fish | source
 
+fish_add_path ~/.local/share
+
 fnm env --use-on-cd --shell fish | source
