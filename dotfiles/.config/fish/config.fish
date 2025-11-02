@@ -8,8 +8,8 @@ alias gs "git status"
 alias cat bat
 alias ls eza
 
-starship init fish | source
-
 fish_add_path ~/.local/share
+
+starship init fish | source
 
 fnm env --use-on-cd --shell fish | source
