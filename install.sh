@@ -1,14 +1,5 @@
 #!/usr/bin/env bash
 
-# Install ruby, required for homebrew
-sudo apk add ruby
+sudo apk add fnm eza fish fisher bat delta starship ripgrep github-cli tokei
 
-# install homebrew
-NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
-echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.bashrc
-echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.zshrc
-
-brew install fnm eza fish fisher bat gh git-delta starship ripgrep

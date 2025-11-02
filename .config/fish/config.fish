@@ -8,6 +8,4 @@ alias gs "git status"
 alias cat bat
 alias ls eza
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
 starship init fish | source
