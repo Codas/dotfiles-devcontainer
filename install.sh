@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-rsync -av dotfiles/ ~/
+rsync -avW dotfiles/ ~/
