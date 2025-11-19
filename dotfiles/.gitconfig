@@ -1,6 +1,8 @@
 [user]
 	name = Arne Link
 	email = mail@arne-link.de
+[safe]
+	directory = *
 [branch]
 	autoSetupRebase = always
 [core]
