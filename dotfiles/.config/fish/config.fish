@@ -8,7 +8,7 @@ alias gs "git status"
 alias cat bat
 alias ls eza
 
-fish_add_path ~/.local/share
+fish_add_path ~/.local/share/fnm
 
 starship init fish | source
 
